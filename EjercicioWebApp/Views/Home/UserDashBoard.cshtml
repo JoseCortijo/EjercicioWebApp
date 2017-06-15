@@ -1,0 +1,13 @@
+﻿@model Ejercicio.Domain.User
+
+@{
+    ViewBag.Title = "Página de entrada";
+}
+
+<h2>Página de entrada</h2>
+
+@if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+{
+    <text>
+        Bienvenido @FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value).Name </text>
+}

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Page1";
+}
+
+<h2>Page1</h2>
+@if (@ViewBag.Message != null)
+{
+    @ViewBag.Message
+}
+
+@if (Request.Cookies[FormsAuthentication.FormsCookieName] != null)
+{
+    <text>
+        Hello @FormsAuthentication.Decrypt(Request.Cookies[FormsAuthentication.FormsCookieName].Value).Name </text>
+}
+

@@ -20,11 +20,10 @@ solución para que aparezca la pantalla de login.
 
 Inicialmente hay 4 usuarios dados de alta para probar:
 
-UserName 	Password	Roles	
-user1		user1		PAGE_1	
-user2		user2		PAGE_2	
-user3		user3		PAGE_3	
-admin		admin		PAGE_1;PAGE_2;PAGE_3;ADMIN
+UserName: user1		Password: user1		Roles: PAGE_1	
+UserName:user2		Password: user2		Roles: PAGE_2	
+UserName:user3		Password: user3		Roles: PAGE_3	
+UserName:admin		Password: admin		Roles: PAGE_1;PAGE_2;PAGE_3;ADMIN
 
 
 
